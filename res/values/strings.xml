@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+   <string name="app_name">Motorola BLE API ICS Sample</string>
+    <string name="bt_not_enabled_leaving">Bluetooth was not enabled. Leaving Application.</string>
+    <string name="settings">User settings</string>
+    <string name="menu_share_log">Share log</string>
+    <string name="connect">Connect a device</string>
+    <string name="disconnect">Disconnect a device</string>
+    <string name="menu_exit">Exit</string>    
+    <string name="menu_conn_dev2">Connect Moto BLE Device</string>    
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">ODS</string>
+
+
+</resources>

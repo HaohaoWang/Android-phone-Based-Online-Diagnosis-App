@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="lib" path="D:/Install files/androiddevelopmentnew/workspace/Motorola_ICS_R2/libs/BluetoothGatt.jar"/>
+	<classpathentry kind="lib" path="D:/Install files/androiddevelopmentnew/workspace/Motorola_ICS_R2/libs/BluetoothGattService.jar"/>
+	<classpathentry kind="lib" path="libs/achartengine-1.0.0.jar"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>

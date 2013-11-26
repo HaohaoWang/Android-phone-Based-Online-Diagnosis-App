@@ -1,0 +1,16 @@
+eclipse.preferences.version=1
+encoding//src/com/motorola/bluetooth/ble/ChartAdapter.java=UTF-8
+encoding//src/com/motorola/bluetooth/ble/DiagnosisActivity.java=UTF-8
+encoding//src/com/motorola/bluetooth/ble/DiagnosisListAdapter.java=UTF-8
+encoding//src/com/motorola/bluetooth/ble/FeedbackActivity.java=UTF-8
+encoding//src/com/motorola/bluetooth/ble/LineChart.java=UTF-8
+encoding//src/com/motorola/bluetooth/ble/LineChartStretch.java=UTF-8
+encoding//src/com/motorola/bluetooth/ble/LineChartTemp.java=UTF-8
+encoding//src/com/motorola/bluetooth/ble/LoginActivity.java=UTF-8
+encoding//src/com/motorola/bluetooth/ble/Motorola_sample_apk_icsActivity.java=UTF-8
+encoding//src/com/motorola/bluetooth/ble/PersonalActivity.java=UTF-8
+encoding//src/myServices/ConnectionUtil.java=UTF-8
+encoding//src/myServices/FeedbackService.java=UTF-8
+encoding//src/myServices/SensorsService.java=UTF-8
+encoding//src/myServices/httpSoap.java=UTF-8
+encoding//src/mySqlite/DatabaseHelper.java=UTF-8

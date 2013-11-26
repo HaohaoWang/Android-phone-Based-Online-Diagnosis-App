@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+  <RelativeLayout
+          xmlns:android="http://schemas.android.com/apk/res/android"
+          android:layout_width="fill_parent"
+          android:layout_height="fill_parent" 
+          android:background="#ffffff">
+ 
+          <!--  Header Starts-->
+         <LinearLayout android:id="@+id/header"
+              android:orientation="vertical"
+    		  android:layout_width="fill_parent"
+    		  android:layout_height="130dip"
+    		  android:layout_gravity="center_horizontal"
+   	    	  android:background="@layout/header_gradient"
+   		      >
+          		<!-- Logo Start-->
+          		  <TextView android:layout_width="fill_parent"
+                  android:layout_height="fill_parent"
+                  android:gravity="center"
+                  android:textSize="17dip"
+                  android:textColor="#FFFFFF"
+                  android:text="Welcome to use ODS"
+                  android:background="@drawable/back00"
+                  />
+          		  
+
+         		 <!-- Logo Ends -->
+		  </LinearLayout> 
+          <!--  Header Ends -->
+ 
+          <!-- Login Form -->
+
+          <RelativeLayout
+              android:id="@+id/body"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_below="@id/header"
+              android:paddingLeft="10dip"
+              android:paddingRight="10dip"
+              >
+
+          <!--  Cprno Label -->
+          <TextView android:id="@+id/titlecprno"
+              	  android:layout_width="wrap_content"
+                  android:layout_height="40dip"
+                  android:gravity="center"
+                  android:layout_alignParentTop="true"
+                  android:layout_alignParentLeft="true"
+                  android:layout_marginTop="10dip"
+                  android:layout_marginBottom="10dip"
+                  android:textColor="#000000"
+                  android:textSize="14dip"
+                  android:text="Cpr.num"/>
+          <EditText android:id="@+id/cprno"
+                  android:layout_width="fill_parent"
+                  android:layout_height="40dip"
+                  android:gravity="top"
+                  android:layout_alignTop="@id/titlecprno"
+                  android:layout_toRightOf="@id/titlecprno"
+                  android:singleLine="true"/>
+          <!--  Password Label -->
+          <TextView android:id="@+id/titlepassword"
+              	  android:layout_width="wrap_content"
+                  android:layout_height="40dip"
+                  android:gravity="center"
+                  android:layout_below="@id/titlecprno"
+                  android:layout_alignParentLeft="true"
+                  android:textColor="#000000"
+                  android:textSize="14dip"
+                  android:text="Password"/>
+          <EditText android:id="@+id/password"
+                  android:layout_width="fill_parent"
+                  android:layout_height="40dip"
+                  android:gravity="top"
+                  android:layout_alignTop="@id/titlepassword"
+                  android:layout_toRightOf="@id/titlepassword"
+                  android:singleLine="true"
+                  android:password="true"/>
+          <!-- Login button -->
+          <Button android:id="@+id/btnLogin"
+                  android:layout_width="fill_parent"
+                  android:layout_height="50dip"
+                  android:layout_alignParentLeft="true"
+                  android:layout_alignParentBottom="true"
+                  android:layout_marginTop="10dip"
+                  android:text="Login"
+                  android:textSize="20dip"
+                  android:background="@layout/button_gradient"/>
+          <Button android:id="@+id/btnRegister"
+                  android:layout_width="220dip"
+                  android:layout_height="50dip"
+                  android:layout_alignParentRight="true"
+                  android:layout_alignParentBottom="true"
+                  android:layout_marginTop="10dip"
+                  android:text="Register"
+                  android:textSize="20dip"
+                  android:background="@layout/button_gradient"
+                  android:visibility="invisible"/>
+          <!-- Link to Registration Screen -->
+
+		  </RelativeLayout>
+          <!-- Login Form Ends -->
+  </RelativeLayout>

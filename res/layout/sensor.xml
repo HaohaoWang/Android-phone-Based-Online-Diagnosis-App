@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+  <RelativeLayout
+          xmlns:android="http://schemas.android.com/apk/res/android"
+          android:layout_width="fill_parent"
+          android:layout_height="fill_parent" 
+          android:background="#FF8C00">
+          
+          <TextView android:id="@+id/s1"
+              	  android:layout_width="wrap_content"
+                  android:layout_height="40dip"
+                  android:gravity="center"
+                  android:layout_alignParentLeft="true"
+                  android:textColor="#ff00ff"
+                  android:textSize="15dip"
+                  android:singleLine="false"
+                  android:text="device:nothing"/>
+          <TextView android:id="@+id/s2"
+              	  android:layout_width="wrap_content"
+                  android:layout_height="40dip"
+                  android:gravity="center"
+                  android:layout_alignParentLeft="true"
+                  android:layout_below="@id/s1"
+                  android:textColor="#ff00ff"
+                  android:textSize="15dip"
+                  android:singleLine="false"
+                  android:text="value:nothing"/>
+          <Button android:id="@+id/bt1"
+                  android:layout_width="120dip"
+                  android:layout_height="50dip"
+                  android:layout_alignParentLeft="true"
+                  android:layout_alignParentBottom="true"
+                  android:layout_marginTop="10dip"
+                  android:text="discoveriable"/>
+          <Button android:id="@+id/bt2"
+                  android:layout_width="120dip"
+                  android:layout_height="50dip"
+                  android:layout_toRightOf="@id/bt1"
+                  android:layout_alignParentBottom="true"
+                  android:layout_marginTop="10dip"
+                  android:text="sacn"/>
+          <Button android:id="@+id/bt3"
+                  android:layout_width="120dip"
+                  android:layout_height="50dip"
+                  android:layout_toRightOf="@id/bt2"
+                  android:layout_alignParentRight="true"
+                  android:layout_alignParentBottom="true"
+                  android:layout_marginTop="10dip"
+                  android:text="paird address"/>
+          <Button android:id="@+id/bt4"
+                  android:layout_width="120dip"
+                  android:layout_height="50dip"
+                  android:layout_alignParentLeft="true"
+                  android:layout_above="@id/bt1"
+                  android:layout_marginTop="10dip"
+                  android:text="connect and data"/>
+
+  </RelativeLayout>
